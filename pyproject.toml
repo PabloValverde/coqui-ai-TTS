@@ -75,7 +75,6 @@ dependencies = [
     "num2words>=0.5.11",
     "spacy[ja]==3.7.5",         # Added exact version
     "soxr==0.4.0",              # Added exact version
-    "scikit-learn==1.5.1",      # Added exact version
     "contourpy==1.2.1",
     ]
 
