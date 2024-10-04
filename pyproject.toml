@@ -47,7 +47,7 @@ dependencies = [
     "numpy>=1.25.2",
     "cython>=0.29.30",
     "scipy>=1.11.2",
-    "torch==2.2.2",
+    "torch>=2.4",
     "torchaudio",
     "soundfile>=0.12.0",
     "librosa>=0.10.1",
@@ -73,7 +73,7 @@ dependencies = [
     "encodec>=0.1.1",
     # XTTS
     "num2words>=0.5.11",
-    "spacy[ja]==3.7.5",         # Added exact version
+    "spacy[ja]>=3,<3.8",         # Added exact version
     "soxr==0.4.0",              # Added exact version
     "contourpy==1.2.1",
     ]
